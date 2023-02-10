@@ -1,0 +1,23 @@
+/* Colors */
+:root {
+  --color-blue: #0058ab;
+  --color-blue-darker: #004a91;
+  --color-yellow: #fbd914;
+  --color-red: #87201c;
+  --color-light-gray: #e0e0e0;
+  --color-dark-gray: #a7a7a7;
+}
+
+/* Space */
+:root {
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 32px;
+}
+
+/* Other */
+:root {
+  --border-radius: 8px;
+  --text-paragraph: 15px;
+  --touch-height: 44px;
+}

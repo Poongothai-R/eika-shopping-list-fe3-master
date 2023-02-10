@@ -1,0 +1,25 @@
+.input-field {
+  display: block;
+}
+
+.input-field span {
+  display: block;
+  font-size: var(--text-paragraph);
+  margin-bottom: 4px;
+}
+
+input {
+  /* 
+    About box sizing:  
+    This makes sure that the border and the padding are included in the height. 
+    Otherwise, the padding and the border will be added on top of the height. 
+  */
+  box-sizing: border-box;
+  width: 280px;
+  height: var(--touch-height);
+  padding: var(--space-small);
+  font-size: var(--text-paragraph);
+  border: solid 1px var(--color-dark-gray);
+  border-radius: var(--border-radius);
+  outline: none;
+}

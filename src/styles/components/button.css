@@ -1,0 +1,29 @@
+button,
+.button {
+  min-width: 120px;
+  height: var(--touch-height);
+  padding: 0 var(--space-medium);
+  background-color: var(--color-blue);
+  color: white;
+  font-size: var(--text-paragraph);
+  font-weight: bold;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--color-blue-darker);
+}
+
+button.secondary,
+.button.secondary {
+  background-color: white;
+  color: black;
+}
+
+button.secondary:hover,
+.button.secondary:hover {
+  background-color: var(--color-light-gray);
+}

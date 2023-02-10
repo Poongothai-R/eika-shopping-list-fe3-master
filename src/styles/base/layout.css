@@ -1,0 +1,29 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: var(--space-medium);
+}
+
+.App .logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: var(--space-big);
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  .App {
+    max-width: 640px;
+    margin: var(--space-big) auto 0 auto; /* image a clock at 12, 3, 6, and 9 hours */
+  }
+}

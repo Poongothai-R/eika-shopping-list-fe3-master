@@ -1,0 +1,14 @@
+.form {
+  padding: var(--space-medium);
+}
+
+.form .input-field {
+  margin-bottom: var(--space-medium);
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+  .form {
+    padding: var(--space-big);
+  }
+}
